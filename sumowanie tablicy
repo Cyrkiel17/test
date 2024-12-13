@@ -1,4 +1,6 @@
-from functools import reduce
-
-def sum(l):
-	return reduce(lambda a, b: a + b, l)
+tablica =[1,2,3,4,5]
+rozmiar = len(tablica)
+suma=0
+for i in range (rozmiar):
+    suma = tablica[i]
+    print (suma)
