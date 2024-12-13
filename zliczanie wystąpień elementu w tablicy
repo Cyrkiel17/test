@@ -1,0 +1,6 @@
+tablica = [1, 2, 4, 51, 2, 5, 1]
+
+# Liczenie wystąpień elementu 1
+liczba_wystąpień = tablica.count(1)
+
+print(f"Element 1 występuje {liczba_wystąpień} razy.")
